@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SimpleTrans 全链路不使用反射、dynamic、Reflection.Emit 或按名反序列化，
+  因此理论上不会被 IL2CPP 托管代码剥离误伤。这里仍然保留 link.xml 作为兜底，
+  若打包体积敏感，可在业务侧自行移除本文件（不影响功能）。
+-->
+<linker>
+  <assembly fullname="SimpleTrans.Core" preserve="all" />
+  <assembly fullname="SimpleTrans.Protocol" preserve="all" />
+  <assembly fullname="SimpleTrans.Server" preserve="all" />
+  <assembly fullname="SimpleTrans.Client" preserve="all" />
+</linker>

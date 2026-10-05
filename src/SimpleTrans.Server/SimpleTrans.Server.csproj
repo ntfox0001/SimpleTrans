@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>SimpleTrans.Server</RootNamespace>
+    <AssemblyName>SimpleTrans.Server</AssemblyName>
+    <Description>SimpleTrans 分发服务器：监听、批量发布、按偏移调度、多客户端隔离。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleTrans.Core\SimpleTrans.Core.csproj" />
+    <ProjectReference Include="..\SimpleTrans.Protocol\SimpleTrans.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+# 默认由 git 自动判定文本文件并统一存储为 LF
+* text=auto
+
+# build.bat 依赖 CRLF 换行：cmd.exe 解析 LF 换行的批处理会错位，
+# 因此无论检出到哪台机器，都强制还原为 CRLF。
+*.bat text eol=crlf
+*.cmd text eol=crlf

@@ -1,0 +1,17 @@
+# ---- .NET 构建产物 ----
+[Bb]in/
+[Oo]bj/
+dist/
+*.user
+
+# ---- IDE / 编辑器 ----
+.vs/
+.idea/
+.vscode/
+*.suo
+*.userprefs
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini

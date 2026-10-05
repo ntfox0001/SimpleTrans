@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>SimpleTrans.Client</RootNamespace>
+    <AssemblyName>SimpleTrans.Client</AssemblyName>
+    <Description>SimpleTrans 接收客户端：连接、清单拉取、断点续传、向 IReceiveSink 投递。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleTrans.Core\SimpleTrans.Core.csproj" />
+    <ProjectReference Include="..\SimpleTrans.Protocol\SimpleTrans.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

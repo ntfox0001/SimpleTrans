@@ -1,0 +1,18 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <Version>0.1.0</Version>
+    <Authors>SimpleTrans</Authors>
+    <Product>SimpleTrans</Product>
+    <NeutralLanguage>zh-CN</NeutralLanguage>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <!-- 零第三方 NuGet 依赖 -->
+    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+</Project>

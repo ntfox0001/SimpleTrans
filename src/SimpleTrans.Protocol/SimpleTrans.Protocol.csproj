@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>SimpleTrans.Protocol</RootNamespace>
+    <AssemblyName>SimpleTrans.Protocol</AssemblyName>
+    <Description>SimpleTrans 私有二进制协议：帧编解码、CRC32、消息定义与轻量缓冲读取器。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleTrans.Core\SimpleTrans.Core.csproj" />
+  </ItemGroup>
+
+</Project>

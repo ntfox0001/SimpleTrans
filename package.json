@@ -1,0 +1,24 @@
+{
+  "name": "com.simpletrans.distribution",
+  "version": "0.1.0",
+  "displayName": "SimpleTrans",
+  "description": "跨平台批量文件分发库：裸 TCP 私有二进制协议、一对多广播、断点续传、零第三方依赖。发送端与接收端均可用，支持 Android / iOS / Windows 与 Unity。",
+  "unity": "2021.3",
+  "keywords": [
+    "file-transfer",
+    "distribution",
+    "tcp",
+    "networking",
+    "resume"
+  ],
+  "author": {
+    "name": "ntfox0001",
+    "url": "https://github.com/ntfox0001"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/ntfox0001/SimpleTrans",
+  "licensesUrl": "https://github.com/ntfox0001/SimpleTrans/blob/main/LICENSE.md",
+  "changelogUrl": "https://github.com/ntfox0001/SimpleTrans/releases",
+  "dependencies": {},
+  "samples": []
+}

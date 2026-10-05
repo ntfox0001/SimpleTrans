@@ -1,0 +1,17 @@
+{
+    "name": "SimpleTrans.Server",
+    "rootNamespace": "SimpleTrans.Server",
+    "references": [
+        "SimpleTrans.Core",
+        "SimpleTrans.Protocol"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

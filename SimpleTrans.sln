@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D086A7F-BCEF-40D5-A428-B8298052CDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrans.Core", "src\SimpleTrans.Core\SimpleTrans.Core.csproj", "{5E250B45-C7AB-4FF1-AE9D-05A093797743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrans.Protocol", "src\SimpleTrans.Protocol\SimpleTrans.Protocol.csproj", "{9201B6E8-B9E5-4C44-976C-BE089528A2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrans.Server", "src\SimpleTrans.Server\SimpleTrans.Server.csproj", "{F33FB664-5FA2-4F0A-A5AC-9EB9B34FF2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrans.Client", "src\SimpleTrans.Client\SimpleTrans.Client.csproj", "{7D5E572C-0CD8-4299-8BD9-04A01CEA4918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples~", "samples~", "{7FF637B7-9EC2-4AF0-9356-7550E4756E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTrans.Demo", "samples~\SimpleTrans.Demo\SimpleTrans.Demo.csproj", "{4138EB94-86CC-4152-A203-C3AA3ADAA62F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E250B45-C7AB-4FF1-AE9D-05A093797743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E250B45-C7AB-4FF1-AE9D-05A093797743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E250B45-C7AB-4FF1-AE9D-05A093797743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E250B45-C7AB-4FF1-AE9D-05A093797743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9201B6E8-B9E5-4C44-976C-BE089528A2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9201B6E8-B9E5-4C44-976C-BE089528A2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9201B6E8-B9E5-4C44-976C-BE089528A2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9201B6E8-B9E5-4C44-976C-BE089528A2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33FB664-5FA2-4F0A-A5AC-9EB9B34FF2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33FB664-5FA2-4F0A-A5AC-9EB9B34FF2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33FB664-5FA2-4F0A-A5AC-9EB9B34FF2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33FB664-5FA2-4F0A-A5AC-9EB9B34FF2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5E572C-0CD8-4299-8BD9-04A01CEA4918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5E572C-0CD8-4299-8BD9-04A01CEA4918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5E572C-0CD8-4299-8BD9-04A01CEA4918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5E572C-0CD8-4299-8BD9-04A01CEA4918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4138EB94-86CC-4152-A203-C3AA3ADAA62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4138EB94-86CC-4152-A203-C3AA3ADAA62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4138EB94-86CC-4152-A203-C3AA3ADAA62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4138EB94-86CC-4152-A203-C3AA3ADAA62F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E250B45-C7AB-4FF1-AE9D-05A093797743} = {3D086A7F-BCEF-40D5-A428-B8298052CDD4}
+		{9201B6E8-B9E5-4C44-976C-BE089528A2DC} = {3D086A7F-BCEF-40D5-A428-B8298052CDD4}
+		{F33FB664-5FA2-4F0A-A5AC-9EB9B34FF2AF} = {3D086A7F-BCEF-40D5-A428-B8298052CDD4}
+		{7D5E572C-0CD8-4299-8BD9-04A01CEA4918} = {3D086A7F-BCEF-40D5-A428-B8298052CDD4}
+		{4138EB94-86CC-4152-A203-C3AA3ADAA62F} = {7FF637B7-9EC2-4AF0-9356-7550E4756E6B}
+	EndGlobalSection
+EndGlobal

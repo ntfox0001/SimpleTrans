@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12</LangVersion>
+    <RootNamespace>SimpleTrans.Demo</RootNamespace>
+    <AssemblyName>SimpleTrans.Demo</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SimpleTrans.Core\SimpleTrans.Core.csproj" />
+    <ProjectReference Include="..\..\src\SimpleTrans.Server\SimpleTrans.Server.csproj" />
+    <ProjectReference Include="..\..\src\SimpleTrans.Client\SimpleTrans.Client.csproj" />
+  </ItemGroup>
+
+</Project>

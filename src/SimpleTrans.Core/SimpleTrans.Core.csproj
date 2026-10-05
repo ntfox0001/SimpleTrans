@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>SimpleTrans</RootNamespace>
+    <AssemblyName>SimpleTrans.Core</AssemblyName>
+    <Description>SimpleTrans 核心契约：文件源、接收端、模型、选项与扩展点。零第三方依赖。</Description>
+  </PropertyGroup>
+
+</Project>
