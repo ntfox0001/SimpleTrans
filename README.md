@@ -66,7 +66,7 @@ SimpleTrans.Client.dll
 （含同名 .pdb 与 link.xml）
 ```
 
-把整个 `dist\SimpleTrans` 文件夹复制到 Unity 工程的 `Assets\Plugins\` 下即可。
+把 `dist\SimpleTrans` 里的 DLL（含 `.pdb` 与 `link.xml`）直接复制到 Unity 工程的 `Plugins` 目录（通常是 `Assets\Plugins\`，`Assets` 下任意位置的 `Plugins` 目录均可），与其他插件放在一起即可。
 
 > `dist/` 已在 [.gitignore](.gitignore) 中排除，仓库不提交构建产物，请自行构建。
 > Player Settings 中 `Api Compatibility Level` 需为 `.NET Standard 2.1`（Unity 2021.3+ 默认值）。

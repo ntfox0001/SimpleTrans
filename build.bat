@@ -85,8 +85,8 @@ echo ============================================================
 echo  构建完成
 echo  产物目录： %CD%\%ST_OUTDIR%
 echo.
-echo  使用方法：把 %ST_OUTDIR% 文件夹整体复制到 Unity 工程的
-echo            Assets\Plugins\ 目录下即可（Unity 会自动导入）。
+echo  使用方法：把 %ST_OUTDIR% 里的 DLL 直接复制到 Unity 工程的
+echo            Plugins 目录（通常是 Assets\Plugins\），与其他插件放在一起即可
 echo.
 echo  注意：
 echo    1) Player Settings 中 Api Compatibility Level 需为 .NET Standard 2.1
